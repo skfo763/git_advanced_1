@@ -8,10 +8,9 @@ def even_list(int_list: List[int]) -> List[int]:
     int_list: A list of integer.
     Returns:
     A list of even integers.
-    """
-    # TODO: Implement even_list
-    pass
-    # Skeleton code for sum_of_squares_of_even
+		"""
+		return [x for x in numbers if x % 2 == 0]
+
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """
